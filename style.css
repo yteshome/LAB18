@@ -25,13 +25,6 @@ button {
 
 }
 
-img {
-  display: block;
-  border: solid 5px black;
-  border-radius: 10px;
-  margi: 0 auto;
-}
-
  form {
   margin: 10px 400px 10px 300px;
   }
