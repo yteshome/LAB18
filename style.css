@@ -1,0 +1,51 @@
+body {
+  background-image: url(images/Michael_Jackson_-_Number_Ones.jpg);
+}
+
+nav {
+  font-size: 30px;
+  font-family: neuropol;
+  margin: 10px 400px 10px 330px;
+}
+
+input {
+  height: 30px;
+  font-size: 25px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+button {
+  height: 40px;
+  font-size: 25px;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  margin-left: 100px;
+
+}
+
+img {
+  display: block;
+  border: solid 5px black;
+  border-radius: 10px;
+  margi: 0 auto;
+}
+
+ form {
+  margin: 10px 400px 10px 300px;
+  }
+
+h1 {
+  /*text-align: center;*/
+  margin: 10px 400px 10px 220px;
+  font-style: italic;
+  font-family: cursive;
+}
+
+pre {
+  font-family: handlee;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px 400px 10px 300px;
+}

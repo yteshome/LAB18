@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app = "myModule">
+<head>
+  <meta charset="utf-8">
+  <title>LAB 18 MAKE ME AN APP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="#!/input">Input</a>
+    <a href="#!/output">Output</a>
+  </nav>
+    <br>
+    <h1>Find lyrics to your favorite song</h1>
+    <br>
+  <ng-view></ng-view>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  <script src="https://code.angularjs.org/1.6.4/angular-route.js"></script>
+  <script src="module.js"></script>
+  <script src="inputController.js"></script>
+  <script src="outputController.js"></script>
+  <script src="factory.js"></script>
+</body>
+</html>
