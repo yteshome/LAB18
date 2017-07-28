@@ -2,7 +2,7 @@ var app = angular.module('myModule');
 
   app.controller('inputController', function($scope, $location, myFactory) {
 
-    $scope.findLyrics = function(artist,track){
+    $scope.findLyrics = function(artist, track){
       var searchCriteria = {
       artistName: artist,
       trackName: track

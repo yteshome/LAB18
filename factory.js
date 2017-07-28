@@ -1,6 +1,7 @@
 var app = angular.module('myModule');
 
   app.factory('myFactory', function($http) {
+
     var lyrics = [];
 
     return {
@@ -17,10 +18,9 @@ var app = angular.module('myModule');
           'Accept':'application/json'
         }
       }).then(function(response){
-        lyrics = response.data.lyrics_body
-        console.log(lyrics);
-        return lyrics;
+        lyrics = response.data.lyrics_body;
       });
+      
       return promise;
     }
 
