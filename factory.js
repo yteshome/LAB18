@@ -1,6 +1,7 @@
 var app = angular.module('myModule');
 
   app.factory('myFactory', function($http) {
+
     var lyrics = [];
 
     return {
@@ -20,6 +21,7 @@ var app = angular.module('myModule');
         lyrics = response.data.lyrics_body
         return lyrics;
       });
+
       return promise;
     }
 
