@@ -18,7 +18,6 @@ var app = angular.module('myModule');
         }
       }).then(function(response){
         lyrics = response.data.lyrics_body
-        console.log(lyrics);
         return lyrics;
       });
       return promise;

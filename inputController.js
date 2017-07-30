@@ -13,6 +13,4 @@ var app = angular.module('myModule');
         $location.path('/output');
       });
     };
-
-
 });

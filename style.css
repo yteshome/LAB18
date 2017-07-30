@@ -1,18 +1,22 @@
-body {
-  background-image: url(images/Michael_Jackson_-_Number_Ones.jpg);
-}
-
 nav {
   font-size: 30px;
   font-family: neuropol;
-  margin: 10px 400px 10px 330px;
+  text-align: center;
+}
+
+a {
+  margin-right: 20px;
 }
 
 input {
   height: 30px;
   font-size: 25px;
   border-radius: 10px;
-  margin: auto;
+  box-shadow: black 5px 5px 5px;
+  border-style: solid;
+  padding: 5px;
+  outline: none;
+  margin: 5px;
 }
 
 button {
@@ -21,24 +25,48 @@ button {
   border-radius: 10px;
   background-color: red;
   color: white;
-  margin-left: 100px;
+  border-color: black;
+  box-shadow: black 5px 5px 5px;
+  outline: none;
+  margin: 5px;
 
 }
 
  form {
-  margin: 10px 400px 10px 300px;
+  margin: 0 auto;
   }
 
 h1 {
-  /*text-align: center;*/
-  margin: 10px 400px 10px 220px;
+  text-align: center;
+  /*margin: 10px 400px 10px 220px;*/
   font-style: italic;
   font-family: cursive;
+  margin-bottom: 25px;
 }
 
 pre {
   font-family: handlee;
   font-weight: bold;
   font-size: 20px;
-  margin: 10px 400px 10px 300px;
+  text-align: center;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+button:active {
+  background-color: black;
+}
+
+#image2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#image1 {
+  position: fixed;
+  top: 0;
+  right: 0;
 }

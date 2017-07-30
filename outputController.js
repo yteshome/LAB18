@@ -4,5 +4,5 @@ var app = angular.module('myModule');
 
     var string = myFactory.getLyrics();
 
-    $scope.lyrics = string.slice(0,-70);
+    $scope.lyrics = string;
 });
