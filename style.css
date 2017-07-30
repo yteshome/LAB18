@@ -1,6 +1,5 @@
 nav {
   font-size: 30px;
-  font-family: neuropol;
   text-align: center;
 }
 
@@ -21,6 +20,7 @@ input {
 
 button {
   height: 40px;
+  color: white;
   font-size: 25px;
   border-radius: 10px;
   background-color: red;
@@ -29,19 +29,17 @@ button {
   box-shadow: black 5px 5px 5px;
   outline: none;
   margin: 5px;
-
 }
 
- form {
+form {
+  width: 30%;
   margin: 0 auto;
-  }
+}
 
 h1 {
   text-align: center;
-  /*margin: 10px 400px 10px 220px;*/
   font-style: italic;
-  font-family: cursive;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 pre {
